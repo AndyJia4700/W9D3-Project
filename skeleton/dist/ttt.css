@@ -1,0 +1,20 @@
+ul {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+li {
+  outline: 5px solid black;
+  width: 95px;
+  height: 95px;
+  float: left;
+  transition: outline 0.5s, background-color 0.5s;
+  cursor: crosshair;
+  background-color: grey;
+  list-style: none;
+}
+
+li:hover {
+    background-color: yellow;
+}
